@@ -1,0 +1,19 @@
+{
+    "data_path": "data",
+    "output_shape": 128,
+    "model": "efficientnet",
+    "pre_trained": true,
+    "loss": "triplet",
+    "margin": 0.2,
+    "optimizer": "adam",
+    "learning_rate": 0.0001,
+    "scheduler": "none",
+    "epochs": 50,
+    "patience": 50,
+    "train_batch": 64,
+    "eval_batch": 64,
+    "test_batch": 64,
+    "outliers": [0, 33],
+    "device": "cuda:0",
+    "num_workers": 64
+}
